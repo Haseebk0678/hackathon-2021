@@ -1,17 +1,17 @@
 from flask import Flask, render_template
-from flask.ext.sqlalchemy import SQLAlchemy
-import os
 
 app = Flask(__name__)
 
-print("hellos")
 @app.route("/", methods = ['POST', 'GET'])
 def home():
     return render_template('index.html')
-    if request.method == 'POST':
-      result = request.form
-      return render_template("result.html",result = result)
 
+    
+@app.route("/result", methods = ['POST','GET'])
+def res():
+  if request.method == 'POST':
+    s = request.form['stateName']
+    return render_template("result.html",s = s)
 
 
 
