@@ -12,6 +12,24 @@ we realized that there would be a lot of API's that were getting called and woul
 fit in the timeline
 
 
+Requiremenets
+
+flask
+Python
+
+How to run
+
+
+1) clone the project
+
+git clone "https or ssh key"
+
+cd project/
+
+2) while cd'd in the project folder 
+
+flask run
+
 
 
 
