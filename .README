@@ -1,1 +1,25 @@
-this is me
+
+Hello person,
+
+For this Hackathon we made a website where you can check how many doses of the
+vaccine that your specefic state got. We used the CDC's API file on the amount of
+doses that was recieved by pfizer per state
+
+
+Our original plan was to use this data to
+maybe plan out how long it will take for the entire U.S to be vaccinated but then
+we realized that there would be a lot of API's that were getting called and would not
+fit in the timeline
+
+
+
+
+
+
+
+@Collaboraters
+
+Haseeb Khan Macaulay Brooklyn College'23
+Ryan Chen Macaulay Queens College'24
+ShuZhen Deng  Baruch College'22
+Tyler Thomas Macaulay Brooklyn College'23
