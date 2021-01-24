@@ -1,8 +1,9 @@
-import request
+# import request
 import json
+import pprint
 
 with open('data.json') as f:
     data = json.load(f)
-print(data['data'][0][0])
-print("HELLO")
-f.close()
+
+
+pprint.pprint(data['data'])

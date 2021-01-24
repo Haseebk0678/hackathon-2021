@@ -1,6 +1,6 @@
 from flask import Flask, render_template
 from flask import request
-
+# from .model import 
 app = Flask(__name__)
 
 @app.route('/', methods = ['POST', 'GET'])
