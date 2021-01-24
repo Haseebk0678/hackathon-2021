@@ -1,5 +1,6 @@
 from flask import Flask, render_template
-
+from flask.ext.sqlalchemy import SQLAlchemy
+import os
 
 app = Flask(__name__)
 
@@ -10,4 +11,7 @@ def home():
     if request.method == 'POST':
       result = request.form
       return render_template("result.html",result = result)
+
+
+
 

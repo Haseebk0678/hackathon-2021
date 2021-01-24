@@ -4,6 +4,10 @@
     right: 50%;
     transform: translateX(-50%);
     justify-content: center;
-    color: red;
+    background-color: red;
     size: 10%;
+}
+
+.body{
+    background-color: red;
 }
