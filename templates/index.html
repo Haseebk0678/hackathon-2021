@@ -5,16 +5,53 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" type="text/css" href="styles.css"/>
+    <link rel="stylesheet" type="text/css" href="../static/styles.css" />
 </head>
 
+<style>
+    .form-name {
+        size: 10%;
+    }
+
+    body {
+        background-color: #A5D6D6;
+        text-align: center;
+        justify-content: center;
+        display: flex;
+
+    }
+
+    #image-symbol {
+        width: 20px;
+    }
+
+    .wrapper{
+        font-size: 200%;
+    }
+
+
+
+
+</style>
+
 <body>
-    <div class="form-name">
-        <form action = '/result' method = 'POST'>
-            <label for="stateName">Enter state:</label><br>
-            <input type="text" id="stateName" name="stateName"><br>
-            <input type = "submit" value = "submit"/>
-        </form>
+
+
+
+
+    <div class="wrapper">
+        <h1>Want to know your vaccine distribution?
+        </h1>
+        <h2>Enter you state below</h2>
+
+        <div class="form-name">
+            <form action='/result' method='POST'>
+                <img id="image-symbol" src="../static/Health.png">
+                <label for="stateName">Enter state:</label><br>
+                <input type="text" id="stateName" name="stateName"><br>
+                <input type="submit" value="submit" />
+            </form>
+        </div>
     </div>
 </body>
 
