@@ -17,8 +17,10 @@ def res():
     sn = get_state_names() # list of state names
     # if state exists
     if s in sn:
+        total_first_dose = get_state_index(s,sn)[-2]
         total_second_dose = get_state_index(s,sn)[-1]
-    return render_template('result.html',s = s, total_second_dose=total_second_dose)
+
+    return render_template('result.html',s = s, total_second_dose=total_second_dose, total_first_dose=total_first_dose)
 
 if __name__ == '__main__':
     app.run(debug=True)
