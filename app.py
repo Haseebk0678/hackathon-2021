@@ -13,3 +13,6 @@ def res():
   if request.method == 'POST':
     s = request.form['stateName']
     return render_template('result.html',s = s)
+
+if __name__ == '__main__':
+    app.run(debug=True)
