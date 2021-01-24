@@ -1,0 +1,9 @@
+.form-name{
+    position: absolute;
+    top: 50%;
+    right: 50%;
+    transform: translateX(-50%);
+    justify-content: center;
+    color: red;
+    size: 10%;
+}
