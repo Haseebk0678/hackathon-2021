@@ -1,0 +1,1621 @@
+{
+  "meta" : {
+    "view" : {
+      "id" : "saz5-9hgg",
+      "name" : "COVID-19 Vaccine Distribution Allocations by Jurisdiction - Pfizer",
+      "assetType" : "dataset",
+      "attribution" : "HHS ASPA",
+      "attributionLink" : "https://www.hhs.gov/coronavirus/covid-19-vaccines/index.html",
+      "averageRating" : 0,
+      "category" : "Vaccinations",
+      "createdAt" : 1607966114,
+      "description" : "This dataset lists the allocations of doses that will be made available for states and jurisdictions to order against. Weekly first-dose allocations are provided to states on Tuesdays; jurisdictions can begin placing orders on Thursdays. After doses are ordered by states, shipments begin the following Monday. The entire order may not arrive in one shipment or on one day, but over the course of the week. Second doses are opened up for orders on Sundays, at the appropriate interval two or three weeks later according to the manufacturer’s label, with shipments occurring after jurisdictions place orders. Shipments of an FDA-authorized safe and effective COVID-19 vaccine continue to arrive at sites across America. Vaccinations began on December 14, 2020. (Data as of Jan. 12, 2021)\n\nhttps://www.hhs.gov/coronavirus/covid-19-vaccines/index.html\n\nModerna Vaccine Data - https://data.cdc.gov/Vaccinations/COVID-19-Vaccine-Distribution-Allocations-by-Juris/b7pe-5nws",
+      "displayType" : "table",
+      "downloadCount" : 5889,
+      "hideFromCatalog" : false,
+      "hideFromDataJson" : false,
+      "licenseId" : "USGOV_WORKS",
+      "newBackend" : true,
+      "numberOfComments" : 0,
+      "oid" : 36243059,
+      "provenance" : "official",
+      "publicationAppendEnabled" : false,
+      "publicationDate" : 1611075327,
+      "publicationGroup" : 17861337,
+      "publicationStage" : "published",
+      "rowsUpdatedAt" : 1611075327,
+      "rowsUpdatedBy" : "tjyw-xtku",
+      "tableId" : 17951879,
+      "totalTimesRated" : 0,
+      "viewCount" : 72944,
+      "viewLastModified" : 1611075327,
+      "viewType" : "tabular",
+      "approvals" : [ {
+        "reviewedAt" : 1608143559,
+        "reviewedAutomatically" : true,
+        "state" : "approved",
+        "submissionId" : 3139644,
+        "submissionObject" : "public_audience_request",
+        "submissionOutcome" : "change_audience",
+        "submittedAt" : 1608143559,
+        "workflowId" : 2100,
+        "submissionDetails" : {
+          "permissionType" : "READ"
+        },
+        "submissionOutcomeApplication" : {
+          "endedAt" : 1608143559,
+          "failureCount" : 0,
+          "startedAt" : 1608143559,
+          "status" : "success"
+        },
+        "submitter" : {
+          "id" : "tjyw-xtku",
+          "displayName" : "HHS ASPA"
+        }
+      } ],
+      "columns" : [ {
+        "id" : -1,
+        "name" : "sid",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":sid",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "id",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":id",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "position",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":position",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "created_at",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":created_at",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "created_meta",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":created_meta",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "updated_at",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":updated_at",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "updated_meta",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":updated_meta",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "meta",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":meta",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : 520036506,
+        "name" : "Jurisdiction",
+        "dataTypeName" : "text",
+        "description" : "",
+        "fieldName" : "jurisdiction",
+        "position" : 1,
+        "renderTypeName" : "text",
+        "tableColumnId" : 125448966,
+        "cachedContents" : {
+          "non_null" : "66",
+          "largest" : "Wyoming",
+          "null" : "0",
+          "top" : [ {
+            "item" : "Oklahoma",
+            "count" : "1"
+          }, {
+            "item" : "Wisconsin***",
+            "count" : "1"
+          }, {
+            "item" : "Vermont",
+            "count" : "1"
+          }, {
+            "item" : "Nevada",
+            "count" : "1"
+          }, {
+            "item" : "Palau*",
+            "count" : "1"
+          }, {
+            "item" : "New Mexico***",
+            "count" : "1"
+          }, {
+            "item" : "New York",
+            "count" : "1"
+          }, {
+            "item" : "West Virginia",
+            "count" : "1"
+          }, {
+            "item" : "South Carolina",
+            "count" : "1"
+          }, {
+            "item" : "Hawaii",
+            "count" : "1"
+          }, {
+            "item" : "Arkansas",
+            "count" : "1"
+          }, {
+            "item" : "Missouri",
+            "count" : "1"
+          }, {
+            "item" : "Minnesota***",
+            "count" : "1"
+          }, {
+            "item" : "South Dakota",
+            "count" : "1"
+          }, {
+            "item" : "District of Columbia",
+            "count" : "1"
+          }, {
+            "item" : "Houston ~",
+            "count" : "1"
+          }, {
+            "item" : "Chicago",
+            "count" : "1"
+          }, {
+            "item" : "Total",
+            "count" : "1"
+          }, {
+            "item" : "Ohio",
+            "count" : "1"
+          }, {
+            "item" : "Oregon***",
+            "count" : "1"
+          } ],
+          "smallest" : "Alabama",
+          "cardinality" : "66"
+        },
+        "format" : { }
+      }, {
+        "id" : 520036507,
+        "name" : "HHS Region",
+        "dataTypeName" : "text",
+        "description" : "",
+        "fieldName" : "hhs_region",
+        "position" : 2,
+        "renderTypeName" : "text",
+        "tableColumnId" : 125448967,
+        "cachedContents" : {
+          "non_null" : "65",
+          "largest" : "Region 9",
+          "null" : "1",
+          "top" : [ {
+            "item" : "Region 9",
+            "count" : "10"
+          }, {
+            "item" : "Region 4",
+            "count" : "8"
+          }, {
+            "item" : "Region 5",
+            "count" : "7"
+          }, {
+            "item" : "Region 3",
+            "count" : "7"
+          }, {
+            "item" : "Region 6",
+            "count" : "7"
+          }, {
+            "item" : "Region 1",
+            "count" : "6"
+          }, {
+            "item" : "Region 8",
+            "count" : "6"
+          }, {
+            "item" : "Region 2",
+            "count" : "5"
+          }, {
+            "item" : "Region 10",
+            "count" : "4"
+          }, {
+            "item" : "Region 7",
+            "count" : "4"
+          }, {
+            "item" : "N/A",
+            "count" : "1"
+          } ],
+          "smallest" : "N/A",
+          "cardinality" : "11"
+        },
+        "format" : { }
+      }, {
+        "id" : 520036508,
+        "name" : "Doses allocated week of 12/14",
+        "dataTypeName" : "text",
+        "description" : "",
+        "fieldName" : "first_doses_12_14",
+        "position" : 3,
+        "renderTypeName" : "text",
+        "tableColumnId" : 125448965,
+        "cachedContents" : {
+          "non_null" : "66",
+          "largest" : "N/A",
+          "null" : "0",
+          "top" : [ {
+            "item" : "N/A",
+            "count" : "5"
+          }, {
+            "item" : "12,675",
+            "count" : "3"
+          }, {
+            "item" : "25,350",
+            "count" : "3"
+          }, {
+            "item" : "5,850",
+            "count" : "3"
+          }, {
+            "item" : "84,825",
+            "count" : "2"
+          }, {
+            "item" : "46,800",
+            "count" : "2"
+          }, {
+            "item" : "35,100",
+            "count" : "2"
+          }, {
+            "item" : "6,825",
+            "count" : "2"
+          }, {
+            "item" : "85,800",
+            "count" : "2"
+          }, {
+            "item" : "13,650",
+            "count" : "2"
+          }, {
+            "item" : "9,750",
+            "count" : "2"
+          }, {
+            "item" : "23,400",
+            "count" : "2"
+          }, {
+            "item" : "16,575",
+            "count" : "2"
+          }, {
+            "item" : "39,000",
+            "count" : "1"
+          }, {
+            "item" : "96,525",
+            "count" : "1"
+          }, {
+            "item" : "50,700",
+            "count" : "1"
+          }, {
+            "item" : "62,400",
+            "count" : "1"
+          }, {
+            "item" : "97,500",
+            "count" : "1"
+          }, {
+            "item" : "17,550",
+            "count" : "1"
+          }, {
+            "item" : "179,400",
+            "count" : "1"
+          } ],
+          "smallest" : "11,700",
+          "cardinality" : "47"
+        },
+        "format" : { }
+      }, {
+        "id" : 520036509,
+        "name" : "Second Dose Shipment (21 days later) week of 12/14",
+        "dataTypeName" : "text",
+        "description" : "",
+        "fieldName" : "second_doses_shipment_12_14",
+        "position" : 4,
+        "renderTypeName" : "text",
+        "tableColumnId" : 125448968,
+        "cachedContents" : {
+          "non_null" : "66",
+          "largest" : "N/A",
+          "null" : "0",
+          "top" : [ {
+            "item" : "N/A",
+            "count" : "8"
+          }, {
+            "item" : "25,350",
+            "count" : "3"
+          }, {
+            "item" : "12,675",
+            "count" : "3"
+          }, {
+            "item" : "6,825",
+            "count" : "2"
+          }, {
+            "item" : "46,800",
+            "count" : "2"
+          }, {
+            "item" : "16,575",
+            "count" : "2"
+          }, {
+            "item" : "85,800",
+            "count" : "2"
+          }, {
+            "item" : "23,400",
+            "count" : "2"
+          }, {
+            "item" : "9,750",
+            "count" : "2"
+          }, {
+            "item" : "13,650",
+            "count" : "2"
+          }, {
+            "item" : "35,100",
+            "count" : "2"
+          }, {
+            "item" : "84,825",
+            "count" : "2"
+          }, {
+            "item" : "39,000",
+            "count" : "1"
+          }, {
+            "item" : "96,525",
+            "count" : "1"
+          }, {
+            "item" : "5,850",
+            "count" : "1"
+          }, {
+            "item" : "50,700",
+            "count" : "1"
+          }, {
+            "item" : "62,400",
+            "count" : "1"
+          }, {
+            "item" : "97,500",
+            "count" : "1"
+          }, {
+            "item" : "17,550",
+            "count" : "1"
+          }, {
+            "item" : "24,375",
+            "count" : "1"
+          } ],
+          "smallest" : "12,675",
+          "cardinality" : "46"
+        },
+        "format" : { }
+      }, {
+        "id" : 520036510,
+        "name" : "Doses allocated week of 12/21",
+        "dataTypeName" : "text",
+        "description" : "",
+        "fieldName" : "doses_allocated_week_of_12_21",
+        "position" : 5,
+        "renderTypeName" : "text",
+        "tableColumnId" : 125694738,
+        "cachedContents" : {
+          "non_null" : "66",
+          "largest" : "N/A",
+          "null" : "0",
+          "top" : [ {
+            "item" : "N/A",
+            "count" : "9"
+          }, {
+            "item" : "17,550",
+            "count" : "3"
+          }, {
+            "item" : "60,450",
+            "count" : "3"
+          }, {
+            "item" : "8,775",
+            "count" : "3"
+          }, {
+            "item" : "4,875",
+            "count" : "3"
+          }, {
+            "item" : "16,575",
+            "count" : "2"
+          }, {
+            "item" : "5,850",
+            "count" : "2"
+          }, {
+            "item" : "9,750",
+            "count" : "2"
+          }, {
+            "item" : "11,700",
+            "count" : "2"
+          }, {
+            "item" : "39,975",
+            "count" : "2"
+          }, {
+            "item" : "6,825",
+            "count" : "2"
+          }, {
+            "item" : "33,150",
+            "count" : "2"
+          }, {
+            "item" : "50,700",
+            "count" : "1"
+          }, {
+            "item" : "53,625",
+            "count" : "1"
+          }, {
+            "item" : "159,900",
+            "count" : "1"
+          }, {
+            "item" : "18,525",
+            "count" : "1"
+          }, {
+            "item" : "27,300",
+            "count" : "1"
+          }, {
+            "item" : "36,075",
+            "count" : "1"
+          }, {
+            "item" : "102,375",
+            "count" : "1"
+          }, {
+            "item" : "28,275",
+            "count" : "1"
+          } ],
+          "smallest" : "102,375",
+          "cardinality" : "43"
+        },
+        "format" : { }
+      }, {
+        "id" : 520036511,
+        "name" : "Second Dose Shipment (21 days later) week of 12/21",
+        "dataTypeName" : "text",
+        "description" : "",
+        "fieldName" : "second_dose_shipment_12_17",
+        "position" : 6,
+        "renderTypeName" : "text",
+        "tableColumnId" : 125694740,
+        "cachedContents" : {
+          "non_null" : "66",
+          "largest" : "N/A",
+          "null" : "0",
+          "top" : [ {
+            "item" : "N/A",
+            "count" : "9"
+          }, {
+            "item" : "17,550",
+            "count" : "3"
+          }, {
+            "item" : "60,450",
+            "count" : "3"
+          }, {
+            "item" : "8,775",
+            "count" : "3"
+          }, {
+            "item" : "4,875",
+            "count" : "3"
+          }, {
+            "item" : "16,575",
+            "count" : "2"
+          }, {
+            "item" : "5,850",
+            "count" : "2"
+          }, {
+            "item" : "9,750",
+            "count" : "2"
+          }, {
+            "item" : "11,700",
+            "count" : "2"
+          }, {
+            "item" : "39,975",
+            "count" : "2"
+          }, {
+            "item" : "6,825",
+            "count" : "2"
+          }, {
+            "item" : "33,150",
+            "count" : "2"
+          }, {
+            "item" : "50,700",
+            "count" : "1"
+          }, {
+            "item" : "53,625",
+            "count" : "1"
+          }, {
+            "item" : "159,900",
+            "count" : "1"
+          }, {
+            "item" : "18,525",
+            "count" : "1"
+          }, {
+            "item" : "27,300",
+            "count" : "1"
+          }, {
+            "item" : "36,075",
+            "count" : "1"
+          }, {
+            "item" : "102,375",
+            "count" : "1"
+          }, {
+            "item" : "28,275",
+            "count" : "1"
+          } ],
+          "smallest" : "102,375",
+          "cardinality" : "43"
+        },
+        "format" : { }
+      }, {
+        "id" : 520036512,
+        "name" : "Doses allocated week of 12/28",
+        "dataTypeName" : "text",
+        "description" : "",
+        "fieldName" : "doses_allocated_week_of_12_28",
+        "position" : 7,
+        "renderTypeName" : "text",
+        "tableColumnId" : 125935581,
+        "cachedContents" : {
+          "non_null" : "66",
+          "largest" : "N/A",
+          "null" : "0",
+          "top" : [ {
+            "item" : "N/A",
+            "count" : "9"
+          }, {
+            "item" : "5,850",
+            "count" : "3"
+          }, {
+            "item" : "22,425",
+            "count" : "3"
+          }, {
+            "item" : "14,625",
+            "count" : "2"
+          }, {
+            "item" : "12,675",
+            "count" : "2"
+          }, {
+            "item" : "8,775",
+            "count" : "2"
+          }, {
+            "item" : "78,000",
+            "count" : "2"
+          }, {
+            "item" : "21,450",
+            "count" : "2"
+          }, {
+            "item" : "46,800",
+            "count" : "2"
+          }, {
+            "item" : "10,725",
+            "count" : "2"
+          }, {
+            "item" : "42,900",
+            "count" : "2"
+          }, {
+            "item" : "77,025",
+            "count" : "2"
+          }, {
+            "item" : "36,075",
+            "count" : "1"
+          }, {
+            "item" : "128,700",
+            "count" : "1"
+          }, {
+            "item" : "24,375",
+            "count" : "1"
+          }, {
+            "item" : "203,775",
+            "count" : "1"
+          }, {
+            "item" : "28,275",
+            "count" : "1"
+          }, {
+            "item" : "88,725",
+            "count" : "1"
+          }, {
+            "item" : "54,600",
+            "count" : "1"
+          }, {
+            "item" : "4,875",
+            "count" : "1"
+          } ],
+          "smallest" : "10,725",
+          "cardinality" : "45"
+        },
+        "format" : { }
+      }, {
+        "id" : 520036513,
+        "name" : "Second Dose Shipment (21 days later) week of 12/28",
+        "dataTypeName" : "text",
+        "description" : "",
+        "fieldName" : "second_dose_shipment_12_28",
+        "position" : 8,
+        "renderTypeName" : "text",
+        "tableColumnId" : 125935582,
+        "cachedContents" : {
+          "non_null" : "66",
+          "largest" : "N/A",
+          "null" : "0",
+          "top" : [ {
+            "item" : "N/A",
+            "count" : "9"
+          }, {
+            "item" : "5,850",
+            "count" : "3"
+          }, {
+            "item" : "22,425",
+            "count" : "3"
+          }, {
+            "item" : "14,625",
+            "count" : "2"
+          }, {
+            "item" : "12,675",
+            "count" : "2"
+          }, {
+            "item" : "8,775",
+            "count" : "2"
+          }, {
+            "item" : "78,000",
+            "count" : "2"
+          }, {
+            "item" : "21,450",
+            "count" : "2"
+          }, {
+            "item" : "46,800",
+            "count" : "2"
+          }, {
+            "item" : "10,725",
+            "count" : "2"
+          }, {
+            "item" : "42,900",
+            "count" : "2"
+          }, {
+            "item" : "77,025",
+            "count" : "2"
+          }, {
+            "item" : "36,075",
+            "count" : "1"
+          }, {
+            "item" : "128,700",
+            "count" : "1"
+          }, {
+            "item" : "24,375",
+            "count" : "1"
+          }, {
+            "item" : "203,775",
+            "count" : "1"
+          }, {
+            "item" : "28,275",
+            "count" : "1"
+          }, {
+            "item" : "88,725",
+            "count" : "1"
+          }, {
+            "item" : "54,600",
+            "count" : "1"
+          }, {
+            "item" : "4,875",
+            "count" : "1"
+          } ],
+          "smallest" : "10,725",
+          "cardinality" : "45"
+        },
+        "format" : { }
+      }, {
+        "id" : 520036514,
+        "name" : "Doses allocated for distribution week of 01/04",
+        "dataTypeName" : "text",
+        "description" : "",
+        "fieldName" : "doses_allocated_week_of_01_04",
+        "position" : 9,
+        "renderTypeName" : "text",
+        "tableColumnId" : 126481701,
+        "cachedContents" : {
+          "non_null" : "66",
+          "largest" : "N/A",
+          "null" : "0",
+          "top" : [ {
+            "item" : "N/A",
+            "count" : "5"
+          }, {
+            "item" : "17,550",
+            "count" : "3"
+          }, {
+            "item" : "60,450",
+            "count" : "3"
+          }, {
+            "item" : "8,775",
+            "count" : "3"
+          }, {
+            "item" : "7,800",
+            "count" : "3"
+          }, {
+            "item" : "9,750",
+            "count" : "2"
+          }, {
+            "item" : "5,850",
+            "count" : "2"
+          }, {
+            "item" : "6,825",
+            "count" : "2"
+          }, {
+            "item" : "3,900",
+            "count" : "2"
+          }, {
+            "item" : "33,150",
+            "count" : "2"
+          }, {
+            "item" : "16,575",
+            "count" : "2"
+          }, {
+            "item" : "4,875",
+            "count" : "2"
+          }, {
+            "item" : "18,525",
+            "count" : "2"
+          }, {
+            "item" : "27,300",
+            "count" : "2"
+          }, {
+            "item" : "11,700",
+            "count" : "2"
+          }, {
+            "item" : "53,625",
+            "count" : "1"
+          }, {
+            "item" : "117,000",
+            "count" : "1"
+          }, {
+            "item" : "36,075",
+            "count" : "1"
+          }, {
+            "item" : "39,975",
+            "count" : "1"
+          }, {
+            "item" : "28,275",
+            "count" : "1"
+          } ],
+          "smallest" : "11,700",
+          "cardinality" : "44"
+        },
+        "format" : { }
+      }, {
+        "id" : 520036515,
+        "name" : "Second dose shipment for distribution (21 days later) week of 01/04",
+        "dataTypeName" : "text",
+        "description" : "",
+        "fieldName" : "second_dose_shipment_01_04",
+        "position" : 10,
+        "renderTypeName" : "text",
+        "tableColumnId" : 126481700,
+        "cachedContents" : {
+          "non_null" : "66",
+          "largest" : "N/A",
+          "null" : "0",
+          "top" : [ {
+            "item" : "N/A",
+            "count" : "8"
+          }, {
+            "item" : "8,775",
+            "count" : "3"
+          }, {
+            "item" : "17,550",
+            "count" : "3"
+          }, {
+            "item" : "60,450",
+            "count" : "3"
+          }, {
+            "item" : "33,150",
+            "count" : "2"
+          }, {
+            "item" : "6,825",
+            "count" : "2"
+          }, {
+            "item" : "3,900",
+            "count" : "2"
+          }, {
+            "item" : "18,525",
+            "count" : "2"
+          }, {
+            "item" : "16,575",
+            "count" : "2"
+          }, {
+            "item" : "4,875",
+            "count" : "2"
+          }, {
+            "item" : "27,300",
+            "count" : "2"
+          }, {
+            "item" : "11,700",
+            "count" : "2"
+          }, {
+            "item" : "9,750",
+            "count" : "2"
+          }, {
+            "item" : "5,850",
+            "count" : "2"
+          }, {
+            "item" : "36,075",
+            "count" : "1"
+          }, {
+            "item" : "39,975",
+            "count" : "1"
+          }, {
+            "item" : "28,275",
+            "count" : "1"
+          }, {
+            "item" : "232,050",
+            "count" : "1"
+          }, {
+            "item" : "29,250",
+            "count" : "1"
+          }, {
+            "item" : "12,675",
+            "count" : "1"
+          } ],
+          "smallest" : "101,400",
+          "cardinality" : "43"
+        },
+        "format" : { }
+      }, {
+        "id" : 520036516,
+        "name" : "Doses allocated for distribution week of 01/10",
+        "dataTypeName" : "text",
+        "description" : "",
+        "fieldName" : "doses_allocated_week_of_01_10",
+        "position" : 11,
+        "renderTypeName" : "text",
+        "tableColumnId" : 127038076,
+        "cachedContents" : {
+          "non_null" : "66",
+          "largest" : "N/A",
+          "null" : "0",
+          "top" : [ {
+            "item" : "N/A",
+            "count" : "9"
+          }, {
+            "item" : "17,550",
+            "count" : "3"
+          }, {
+            "item" : "60,450",
+            "count" : "3"
+          }, {
+            "item" : "8,775",
+            "count" : "3"
+          }, {
+            "item" : "4,875",
+            "count" : "3"
+          }, {
+            "item" : "16,575",
+            "count" : "2"
+          }, {
+            "item" : "5,850",
+            "count" : "2"
+          }, {
+            "item" : "9,750",
+            "count" : "2"
+          }, {
+            "item" : "11,700",
+            "count" : "2"
+          }, {
+            "item" : "39,975",
+            "count" : "2"
+          }, {
+            "item" : "33,150",
+            "count" : "2"
+          }, {
+            "item" : "6,825",
+            "count" : "2"
+          }, {
+            "item" : "50,700",
+            "count" : "1"
+          }, {
+            "item" : "53,625",
+            "count" : "1"
+          }, {
+            "item" : "159,900",
+            "count" : "1"
+          }, {
+            "item" : "18,525",
+            "count" : "1"
+          }, {
+            "item" : "27,300",
+            "count" : "1"
+          }, {
+            "item" : "36,075",
+            "count" : "1"
+          }, {
+            "item" : "102,375",
+            "count" : "1"
+          }, {
+            "item" : "28,275",
+            "count" : "1"
+          } ],
+          "smallest" : "102,375",
+          "cardinality" : "43"
+        },
+        "format" : { }
+      }, {
+        "id" : 520036517,
+        "name" : "Second dose shipment for distribution (21 days later) week of 01/10",
+        "dataTypeName" : "text",
+        "description" : "",
+        "fieldName" : "second_dose_shipment_week_of_01_10",
+        "position" : 12,
+        "renderTypeName" : "text",
+        "tableColumnId" : 127038075,
+        "cachedContents" : {
+          "non_null" : "66",
+          "largest" : "N/A",
+          "null" : "0",
+          "top" : [ {
+            "item" : "N/A",
+            "count" : "9"
+          }, {
+            "item" : "17,550",
+            "count" : "3"
+          }, {
+            "item" : "60,450",
+            "count" : "3"
+          }, {
+            "item" : "8,775",
+            "count" : "3"
+          }, {
+            "item" : "4,875",
+            "count" : "3"
+          }, {
+            "item" : "16,575",
+            "count" : "2"
+          }, {
+            "item" : "5,850",
+            "count" : "2"
+          }, {
+            "item" : "9,750",
+            "count" : "2"
+          }, {
+            "item" : "11,700",
+            "count" : "2"
+          }, {
+            "item" : "39,975",
+            "count" : "2"
+          }, {
+            "item" : "33,150",
+            "count" : "2"
+          }, {
+            "item" : "6,825",
+            "count" : "2"
+          }, {
+            "item" : "50,700",
+            "count" : "1"
+          }, {
+            "item" : "53,625",
+            "count" : "1"
+          }, {
+            "item" : "159,900",
+            "count" : "1"
+          }, {
+            "item" : "18,525",
+            "count" : "1"
+          }, {
+            "item" : "27,300",
+            "count" : "1"
+          }, {
+            "item" : "36,075",
+            "count" : "1"
+          }, {
+            "item" : "102,375",
+            "count" : "1"
+          }, {
+            "item" : "28,275",
+            "count" : "1"
+          } ],
+          "smallest" : "102,375",
+          "cardinality" : "43"
+        },
+        "format" : { }
+      }, {
+        "id" : 520036518,
+        "name" : "Doses allocated for distribution week of 01/18",
+        "dataTypeName" : "text",
+        "description" : "",
+        "fieldName" : "doses_distribution_week_of_01_18",
+        "position" : 13,
+        "renderTypeName" : "text",
+        "tableColumnId" : 127667298,
+        "cachedContents" : {
+          "non_null" : "66",
+          "largest" : "N/A",
+          "null" : "0",
+          "top" : [ {
+            "item" : "N/A",
+            "count" : "9"
+          }, {
+            "item" : "18,525",
+            "count" : "4"
+          }, {
+            "item" : "63,375",
+            "count" : "3"
+          }, {
+            "item" : "4,875",
+            "count" : "3"
+          }, {
+            "item" : "6,825",
+            "count" : "3"
+          }, {
+            "item" : "10,725",
+            "count" : "2"
+          }, {
+            "item" : "71,175",
+            "count" : "2"
+          }, {
+            "item" : "11,700",
+            "count" : "2"
+          }, {
+            "item" : "17,550",
+            "count" : "2"
+          }, {
+            "item" : "8,775",
+            "count" : "2"
+          }, {
+            "item" : "38,025",
+            "count" : "2"
+          }, {
+            "item" : "19,500",
+            "count" : "1"
+          }, {
+            "item" : "105,300",
+            "count" : "1"
+          }, {
+            "item" : "165,750",
+            "count" : "1"
+          }, {
+            "item" : "5,850",
+            "count" : "1"
+          }, {
+            "item" : "53,625",
+            "count" : "1"
+          }, {
+            "item" : "9,750",
+            "count" : "1"
+          }, {
+            "item" : "62,400",
+            "count" : "1"
+          }, {
+            "item" : "24,375",
+            "count" : "1"
+          }, {
+            "item" : "28,275",
+            "count" : "1"
+          } ],
+          "smallest" : "105,300",
+          "cardinality" : "43"
+        },
+        "format" : { }
+      }, {
+        "id" : 520036519,
+        "name" : "Second dose shipment for distribution (21 days later) week of 01/18",
+        "dataTypeName" : "text",
+        "description" : "",
+        "fieldName" : "second_dose_shipment_week_of_01_18",
+        "position" : 14,
+        "renderTypeName" : "text",
+        "tableColumnId" : 127667297,
+        "cachedContents" : {
+          "non_null" : "66",
+          "largest" : "N/A",
+          "null" : "0",
+          "top" : [ {
+            "item" : "N/A",
+            "count" : "9"
+          }, {
+            "item" : "18,525",
+            "count" : "4"
+          }, {
+            "item" : "63,375",
+            "count" : "3"
+          }, {
+            "item" : "4,875",
+            "count" : "3"
+          }, {
+            "item" : "6,825",
+            "count" : "3"
+          }, {
+            "item" : "10,725",
+            "count" : "2"
+          }, {
+            "item" : "71,175",
+            "count" : "2"
+          }, {
+            "item" : "11,700",
+            "count" : "2"
+          }, {
+            "item" : "17,550",
+            "count" : "2"
+          }, {
+            "item" : "8,775",
+            "count" : "2"
+          }, {
+            "item" : "38,025",
+            "count" : "2"
+          }, {
+            "item" : "19,500",
+            "count" : "1"
+          }, {
+            "item" : "105,300",
+            "count" : "1"
+          }, {
+            "item" : "165,750",
+            "count" : "1"
+          }, {
+            "item" : "5,850",
+            "count" : "1"
+          }, {
+            "item" : "53,625",
+            "count" : "1"
+          }, {
+            "item" : "9,750",
+            "count" : "1"
+          }, {
+            "item" : "62,400",
+            "count" : "1"
+          }, {
+            "item" : "24,375",
+            "count" : "1"
+          }, {
+            "item" : "28,275",
+            "count" : "1"
+          } ],
+          "smallest" : "105,300",
+          "cardinality" : "43"
+        },
+        "format" : { }
+      }, {
+        "id" : 520036523,
+        "name" : "Doses allocated for distribution week of 01/25",
+        "dataTypeName" : "text",
+        "description" : "",
+        "fieldName" : "doses_allocated_week_of_01_25",
+        "position" : 15,
+        "renderTypeName" : "text",
+        "tableColumnId" : 128210484,
+        "cachedContents" : {
+          "non_null" : "66",
+          "largest" : "N/A",
+          "null" : "0",
+          "top" : [ {
+            "item" : "N/A",
+            "count" : "9"
+          }, {
+            "item" : "18,525",
+            "count" : "4"
+          }, {
+            "item" : "63,375",
+            "count" : "3"
+          }, {
+            "item" : "4,875",
+            "count" : "3"
+          }, {
+            "item" : "6,825",
+            "count" : "3"
+          }, {
+            "item" : "10,725",
+            "count" : "2"
+          }, {
+            "item" : "71,175",
+            "count" : "2"
+          }, {
+            "item" : "11,700",
+            "count" : "2"
+          }, {
+            "item" : "17,550",
+            "count" : "2"
+          }, {
+            "item" : "8,775",
+            "count" : "2"
+          }, {
+            "item" : "38,025",
+            "count" : "2"
+          }, {
+            "item" : "19,500",
+            "count" : "1"
+          }, {
+            "item" : "105,300",
+            "count" : "1"
+          }, {
+            "item" : "165,750",
+            "count" : "1"
+          }, {
+            "item" : "5,850",
+            "count" : "1"
+          }, {
+            "item" : "53,625",
+            "count" : "1"
+          }, {
+            "item" : "9,750",
+            "count" : "1"
+          }, {
+            "item" : "62,400",
+            "count" : "1"
+          }, {
+            "item" : "24,375",
+            "count" : "1"
+          }, {
+            "item" : "28,275",
+            "count" : "1"
+          } ],
+          "smallest" : "105,300",
+          "cardinality" : "43"
+        },
+        "format" : { }
+      }, {
+        "id" : 520036522,
+        "name" : "Second dose shipment for distribution (21 days later) week of 01/25",
+        "dataTypeName" : "text",
+        "description" : "",
+        "fieldName" : "second_dose_shipment_week_of_01_25",
+        "position" : 16,
+        "renderTypeName" : "text",
+        "tableColumnId" : 128210483,
+        "cachedContents" : {
+          "non_null" : "66",
+          "largest" : "N/A",
+          "null" : "0",
+          "top" : [ {
+            "item" : "N/A",
+            "count" : "9"
+          }, {
+            "item" : "18,525",
+            "count" : "4"
+          }, {
+            "item" : "63,375",
+            "count" : "3"
+          }, {
+            "item" : "4,875",
+            "count" : "3"
+          }, {
+            "item" : "6,825",
+            "count" : "3"
+          }, {
+            "item" : "10,725",
+            "count" : "2"
+          }, {
+            "item" : "71,175",
+            "count" : "2"
+          }, {
+            "item" : "11,700",
+            "count" : "2"
+          }, {
+            "item" : "17,550",
+            "count" : "2"
+          }, {
+            "item" : "8,775",
+            "count" : "2"
+          }, {
+            "item" : "38,025",
+            "count" : "2"
+          }, {
+            "item" : "19,500",
+            "count" : "1"
+          }, {
+            "item" : "105,300",
+            "count" : "1"
+          }, {
+            "item" : "165,750",
+            "count" : "1"
+          }, {
+            "item" : "5,850",
+            "count" : "1"
+          }, {
+            "item" : "53,625",
+            "count" : "1"
+          }, {
+            "item" : "9,750",
+            "count" : "1"
+          }, {
+            "item" : "62,400",
+            "count" : "1"
+          }, {
+            "item" : "24,375",
+            "count" : "1"
+          }, {
+            "item" : "28,275",
+            "count" : "1"
+          } ],
+          "smallest" : "105,300",
+          "cardinality" : "43"
+        },
+        "format" : { }
+      }, {
+        "id" : 520036520,
+        "name" : "Total Pfizer Allocation \"First Dose\" Shipments",
+        "dataTypeName" : "text",
+        "description" : "",
+        "fieldName" : "total_pfizer_allocation_first_dose_shipments",
+        "position" : 17,
+        "renderTypeName" : "text",
+        "tableColumnId" : 125694739,
+        "cachedContents" : {
+          "non_null" : "65",
+          "largest" : "99,450",
+          "null" : "1",
+          "top" : [ {
+            "item" : "0",
+            "count" : "5"
+          }, {
+            "item" : "37,050",
+            "count" : "2"
+          }, {
+            "item" : "67,275",
+            "count" : "2"
+          }, {
+            "item" : "52,650",
+            "count" : "2"
+          }, {
+            "item" : "77,025",
+            "count" : "2"
+          }, {
+            "item" : "89,700",
+            "count" : "2"
+          }, {
+            "item" : "13,650",
+            "count" : "2"
+          }, {
+            "item" : "129,675",
+            "count" : "2"
+          }, {
+            "item" : "137,475",
+            "count" : "2"
+          }, {
+            "item" : "43,875",
+            "count" : "1"
+          }, {
+            "item" : "323,700",
+            "count" : "1"
+          }, {
+            "item" : "35,100",
+            "count" : "1"
+          }, {
+            "item" : "281,775",
+            "count" : "1"
+          }, {
+            "item" : "70,200",
+            "count" : "1"
+          }, {
+            "item" : "19,500",
+            "count" : "1"
+          }, {
+            "item" : "141,375",
+            "count" : "1"
+          }, {
+            "item" : "6,825",
+            "count" : "1"
+          }, {
+            "item" : "166,725",
+            "count" : "1"
+          }, {
+            "item" : "1,806,675",
+            "count" : "1"
+          }, {
+            "item" : "531,375",
+            "count" : "1"
+          } ],
+          "smallest" : "0",
+          "cardinality" : "53"
+        },
+        "format" : { }
+      }, {
+        "id" : 520036521,
+        "name" : "Total Allocation Pfizer \"Second Dose\" Shipments",
+        "dataTypeName" : "text",
+        "description" : "",
+        "fieldName" : "total_allocation_pfizer_second_dose_shipments",
+        "position" : 18,
+        "renderTypeName" : "text",
+        "tableColumnId" : 125694741,
+        "cachedContents" : {
+          "non_null" : "65",
+          "largest" : "99,450",
+          "null" : "1",
+          "top" : [ {
+            "item" : "0",
+            "count" : "8"
+          }, {
+            "item" : "37,050",
+            "count" : "2"
+          }, {
+            "item" : "67,275",
+            "count" : "2"
+          }, {
+            "item" : "52,650",
+            "count" : "2"
+          }, {
+            "item" : "77,025",
+            "count" : "2"
+          }, {
+            "item" : "89,700",
+            "count" : "2"
+          }, {
+            "item" : "129,675",
+            "count" : "2"
+          }, {
+            "item" : "137,475",
+            "count" : "2"
+          }, {
+            "item" : "43,875",
+            "count" : "1"
+          }, {
+            "item" : "323,700",
+            "count" : "1"
+          }, {
+            "item" : "35,100",
+            "count" : "1"
+          }, {
+            "item" : "281,775",
+            "count" : "1"
+          }, {
+            "item" : "70,200",
+            "count" : "1"
+          }, {
+            "item" : "141,375",
+            "count" : "1"
+          }, {
+            "item" : "6,825",
+            "count" : "1"
+          }, {
+            "item" : "166,725",
+            "count" : "1"
+          }, {
+            "item" : "1,806,675",
+            "count" : "1"
+          }, {
+            "item" : "531,375",
+            "count" : "1"
+          }, {
+            "item" : "330,525",
+            "count" : "1"
+          }, {
+            "item" : "62,400",
+            "count" : "1"
+          } ],
+          "smallest" : "0",
+          "cardinality" : "51"
+        },
+        "format" : { }
+      } ],
+      "grants" : [ {
+        "inherited" : false,
+        "type" : "viewer",
+        "flags" : [ "public" ]
+      } ],
+      "license" : {
+        "name" : "Public Domain U.S. Government",
+        "termsLink" : "https://www.usa.gov/government-works"
+      },
+      "metadata" : {
+        "custom_fields" : {
+          "Data Quality" : {
+            "Geospatial Resolution" : "HHS Region, Jurisdiction",
+            "Update Frequency" : "Weekly",
+            "Geographic Coverage" : "United States"
+          },
+          "Common Core" : {
+            "Contact Email" : "media@hhs.gov",
+            "Footnotes" : "* Marshall Islands, Micronesia, Palau will not receive Pfizer vaccines due to logistical considerations with ultra-cold requirements. ** Jurisdiction will receive first and second doses simultaneously to optimize transportation logistics. A sub-set of these jurisdictions are also receiving expected allocations for the remainder of the month pulled forward. ***Jurisdiction will receive a \"Sovereign Nation Supplement\" for American Indian/Alaskan Native populations that elected to receive vaccines through the state instead of Indian Health Service. **** Federal Entities includes; Bureau of Prisons, Dept. of Defense, Dept. of State, Indian Health Service, & Veterans Affairs + Dept. of Homeland Security. ~San Antonio and Houston jurisdiction allocations consolidated with Texas.",
+            "Contact Name" : "ASPA Media",
+            "Program Code" : "009:020",
+            "Publisher" : "HHS ASPA",
+            "Bureau Code" : "009:00"
+          }
+        },
+        "rowLabel" : "Initial Pfizer Vaccine Allocation by State",
+        "availableDisplayTypes" : [ "table", "fatrow", "page" ]
+      },
+      "owner" : {
+        "id" : "tjyw-xtku",
+        "displayName" : "HHS ASPA",
+        "screenName" : "HHS ASPA",
+        "type" : "interactive",
+        "flags" : [ "acceptedEula" ]
+      },
+      "query" : { },
+      "rights" : [ "read" ],
+      "tableAuthor" : {
+        "id" : "tjyw-xtku",
+        "displayName" : "HHS ASPA",
+        "screenName" : "HHS ASPA",
+        "type" : "interactive",
+        "flags" : [ "acceptedEula" ]
+      },
+      "tags" : [ "covid-19", "vaccination", "coronavirus" ],
+      "flags" : [ "default", "ownerMayBeContacted", "restorable", "restorePossibleForType" ]
+    }
+  },
+  "data" : [ [ "row-wr9f_d6cd_xmgi", "00000000-0000-0000-2083-2C319B0E9678", 0, 1611075326, null, 1611075326, null, "{ }", "Connecticut", "Region 1", "31,200", "31,200", "22,425", "22,425", "28,275", "28,275", "22,425", "22,425", "22,425", "22,425", "23,400", "23,400", "23,400", "23,400", "173,550", "173,550" ]
+, [ "row-jgjf-x4vv.sdpq", "00000000-0000-0000-DCE6-178037E5B6CC", 0, 1611075326, null, 1611075326, null, "{ }", "Maine", "Region 1", "12,675", "12,675", "8,775", "8,775", "10,725", "10,725", "8,775", "8,775", "8,775", "8,775", "8,775", "8,775", "8,775", "8,775", "67,275", "67,275" ]
+, [ "row-zxih-75ju~s8cw", "00000000-0000-0000-406B-DAC7B0681E4C", 0, 1611075326, null, 1611075326, null, "{ }", "Massachusetts", "Region 1", "59,475", "59,475", "42,900", "42,900", "54,600", "54,600", "42,900", "42,900", "42,900", "42,900", "43,875", "43,875", "43,875", "43,875", "330,525", "330,525" ]
+, [ "row-zm9b-25fb.xtpc", "00000000-0000-0000-DAD0-40D3ED785106", 0, 1611075326, null, 1611075326, null, "{ }", "New Hampshire", "Region 1", "12,675", "12,675", "8,775", "8,775", "10,725", "10,725", "8,775", "8,775", "8,775", "8,775", "8,775", "8,775", "8,775", "8,775", "67,275", "67,275" ]
+, [ "row-jxg5~udxt_xy5w", "00000000-0000-0000-687C-D0AAC62F55EE", 0, 1611075326, null, 1611075326, null, "{ }", "Rhode Island", "Region 1", "9,750", "9,750", "6,825", "6,825", "8,775", "8,775", "6,825", "6,825", "6,825", "6,825", "6,825", "6,825", "6,825", "6,825", "52,650", "52,650" ]
+, [ "row-337f-j6nd-za3p", "00000000-0000-0000-0DE9-ACAEEFF0978E", 0, 1611075326, null, 1611075326, null, "{ }", "Vermont", "Region 1", "5,850", "5,850", "4,875", "4,875", "5,850", "5,850", "3,900", "3,900", "4,875", "4,875", "4,875", "4,875", "4,875", "4,875", "35,100", "35,100" ]
+, [ "row-qj38.xqy6-cjzi", "00000000-0000-0000-1D01-E5476B04BA79", 0, 1611075326, null, 1611075326, null, "{ }", "New Jersey", "Region 2", "76,050", "76,050", "53,625", "53,625", "68,250", "68,250", "53,625", "53,625", "53,625", "53,625", "55,575", "55,575", "55,575", "55,575", "416,325", "416,325" ]
+, [ "row-87ms_fmae~6n88", "00000000-0000-0000-73E6-2F3A09750495", 0, 1611075326, null, 1611075326, null, "{ }", "New York", "Region 2", "96,525", "96,525", "68,250", "68,250", "87,750", "87,750", "68,250", "68,250", "68,250", "68,250", "71,175", "71,175", "71,175", "71,175", "531,375", "531,375" ]
+, [ "row-dxb4-c58x~8n48", "00000000-0000-0000-08D7-F279A463579B", 0, 1611075326, null, 1611075326, null, "{ }", "New York City", "Region 2", "73,125", "73,125", "51,675", "51,675", "66,300", "66,300", "51,675", "51,675", "51,675", "51,675", "53,625", "53,625", "53,625", "53,625", "401,700", "401,700" ]
+, [ "row-8ax7_t9xy~q6ph", "00000000-0000-0000-C9B0-F67397A528FF", 0, 1611075326, null, 1611075326, null, "{ }", "Puerto Rico", "Region 2", "30,225", "30,225", "21,450", "21,450", "27,300", "27,300", "21,450", "21,450", "21,450", "21,450", "22,425", "22,425", "22,425", "22,425", "166,725", "166,725" ]
+, [ "row-eqzu.h7bm~gits", "00000000-0000-0000-F8B5-AB3921E5ABD8", 0, 1611075326, null, 1611075326, null, "{ }", "U.S. Virgin Islands", "Region 2", "975", "975", "975", "975", "975", "975", "975", "975", "975", "975", "975", "975", "975", "975", "6,825", "6,825" ]
+, [ "row-8rux-qbp3_zaf9", "00000000-0000-0000-6FE7-FEC21B446D10", 0, 1611075326, null, 1611075326, null, "{ }", "Delaware", "Region 3", "8,775", "8,775", "5,850", "5,850", "7,800", "7,800", "5,850", "5,850", "5,850", "5,850", "6,825", "6,825", "6,825", "6,825", "47,775", "47,775" ]
+, [ "row-xdfx_2b5u.jtfr", "00000000-0000-0000-6695-E69D835F0B6B", 0, 1611075326, null, 1611075326, null, "{ }", "District of Columbia", "Region 3", "6,825", "6,825", "4,875", "4,875", "5,850", "5,850", "4,875", "4,875", "4,875", "4,875", "4,875", "4,875", "4,875", "4,875", "37,050", "37,050" ]
+, [ "row-his9-v8p7~5k8w", "00000000-0000-0000-1CF3-9568B6E2775D", 0, 1611075326, null, 1611075326, null, "{ }", "Maryland", "Region 3", "50,700", "50,700", "36,075", "36,075", "46,800", "46,800", "36,075", "36,075", "36,075", "36,075", "38,025", "38,025", "38,025", "38,025", "281,775", "281,775" ]
+, [ "row-r6ii~vt6q_s9ps", "00000000-0000-0000-7C73-B6BFB0173C88", 0, 1611075326, null, 1611075326, null, "{ }", "Pennsylvania", "Region 3", "97,500", "97,500", "69,225", "69,225", "88,725", "88,725", "69,225", "69,225", "69,225", "69,225", "71,175", "71,175", "71,175", "71,175", "536,250", "536,250" ]
+, [ "row-3rts-tsgt-7fgh", "00000000-0000-0000-2185-D6BC1A0E5C64", 0, 1611075326, null, 1611075326, null, "{ }", "Philadelphia", "Region 3", "13,650", "13,650", "9,750", "9,750", "12,675", "12,675", "9,750", "9,750", "9,750", "9,750", "10,725", "10,725", "10,725", "10,725", "77,025", "77,025" ]
+, [ "row-feh5~3paz_2xnt", "00000000-0000-0000-8626-A4D3A235C862", 0, 1611075326, null, 1611075326, null, "{ }", "Virginia", "Region 3", "72,150", "72,150", "50,700", "50,700", "65,325", "65,325", "50,700", "50,700", "50,700", "50,700", "52,650", "52,650", "52,650", "52,650", "394,875", "394,875" ]
+, [ "row-fpph.yyby_gjtp", "00000000-0000-0000-6F3F-B3F644452FFE", 0, 1611075326, null, 1611075326, null, "{ }", "West Virginia", "Region 3", "16,575", "16,575", "11,700", "11,700", "14,625", "14,625", "11,700", "11,700", "11,700", "11,700", "11,700", "11,700", "11,700", "11,700", "89,700", "89,700" ]
+, [ "row-7g3n-8s5u_xs66", "00000000-0000-0000-99A9-39BEDE463405", 0, 1611075326, null, 1611075326, null, "{ }", "Alabama", "Region 4", "40,950", "40,950", "29,250", "29,250", "38,025", "38,025", "29,250", "29,250", "29,250", "29,250", "30,225", "30,225", "30,225", "30,225", "227,175", "227,175" ]
+, [ "row-hemw~vqkt_2fu7", "00000000-0000-0000-9701-9AE16D53467B", 0, 1611075326, null, 1611075326, null, "{ }", "Florida", "Region 4", "179,400", "179,400", "127,725", "127,725", "162,825", "162,825", "126,750", "126,750", "127,725", "127,725", "132,600", "132,600", "132,600", "132,600", "989,625", "989,625" ]
+, [ "row-zh52-7txc.3eiv", "00000000-0000-0000-C2F3-5EC93F2FDE59", 0, 1611075326, null, 1611075326, null, "{ }", "Georgia", "Region 4", "84,825", "84,825", "60,450", "60,450", "77,025", "77,025", "60,450", "60,450", "60,450", "60,450", "63,375", "63,375", "63,375", "63,375", "469,950", "469,950" ]
+, [ "row-tvhs~hcwc-q7y5", "00000000-0000-0000-A3AE-681FC854071A", 0, 1611075326, null, 1611075326, null, "{ }", "Kentucky", "Region 4", "38,025", "38,025", "27,300", "27,300", "34,125", "34,125", "27,300", "27,300", "27,300", "27,300", "28,275", "28,275", "28,275", "28,275", "210,600", "210,600" ]
+, [ "row-zxrg~amn9-ufqm", "00000000-0000-0000-E994-400C151EBCCF", 0, 1611075326, null, 1611075326, null, "{ }", "Mississippi", "Region 4", "25,350", "25,350", "17,550", "17,550", "22,425", "22,425", "17,550", "17,550", "17,550", "17,550", "18,525", "18,525", "18,525", "18,525", "137,475", "137,475" ]
+, [ "row-tp3r_n7tr~ep4m", "00000000-0000-0000-F1EF-8A00DA629041", 0, 1611075326, null, 1611075326, null, "{ }", "North Carolina", "Region 4", "85,800", "85,800", "61,425", "61,425", "78,000", "78,000", "61,425", "61,425", "61,425", "61,425", "63,375", "63,375", "63,375", "63,375", "474,825", "474,825" ]
+, [ "row-jiz9-z5te_yirk", "00000000-0000-0000-EE92-B07EAC21A6B3", 0, 1611075326, null, 1611075326, null, "{ }", "South Carolina", "Region 4", "42,900", "42,900", "30,225", "30,225", "39,000", "39,000", "30,225", "30,225", "30,225", "30,225", "31,200", "31,200", "31,200", "31,200", "234,975", "234,975" ]
+, [ "row-qvp2.ujn3~s4n9", "00000000-0000-0000-7445-A935F16650E4", 0, 1611075326, null, 1611075326, null, "{ }", "Tennessee", "Region 4", "56,550", "56,550", "39,975", "39,975", "51,675", "51,675", "39,975", "39,975", "39,975", "39,975", "41,925", "41,925", "41,925", "41,925", "312,000", "312,000" ]
+, [ "row-235m~7qhw_6eby", "00000000-0000-0000-806D-05A4D19AB820", 0, 1611075326, null, 1611075326, null, "{ }", "Chicago", "Region 5", "23,400", "23,400", "16,575", "16,575", "21,450", "21,450", "16,575", "16,575", "16,575", "16,575", "17,550", "17,550", "17,550", "17,550", "129,675", "129,675" ]
+, [ "row-rz4k_b8sq_ximq", "00000000-0000-0000-1DD2-545AC676EFCE", 0, 1611075326, null, 1611075326, null, "{ }", "Illinois", "Region 5", "85,800", "85,800", "60,450", "60,450", "78,000", "78,000", "60,450", "60,450", "60,450", "60,450", "63,375", "63,375", "63,375", "63,375", "471,900", "471,900" ]
+, [ "row-gz6m_ftct_sqb2", "00000000-0000-0000-C182-9D9ED4070700", 0, 1611075326, null, 1611075326, null, "{ }", "Indiana", "Region 5", "55,575", "55,575", "39,975", "39,975", "50,700", "50,700", "39,000", "39,000", "39,975", "39,975", "40,950", "40,950", "40,950", "40,950", "307,125", "307,125" ]
+, [ "row-c4h5.7jcg.f8jy", "00000000-0000-0000-DF9C-D4296B5FBCF8", 0, 1611075326, null, 1611075326, null, "{ }", "Michigan", "Region 5", "84,825", "84,825", "60,450", "60,450", "77,025", "77,025", "60,450", "60,450", "60,450", "60,450", "62,400", "62,400", "62,400", "62,400", "468,000", "468,000" ]
+, [ "row-qb4q_hxz5_m8c6", "00000000-0000-0000-9C1D-F8F99C2604A2", 0, 1611075326, null, 1611075326, null, "{ }", "Minnesota***", "Region 5", "46,800", "46,800", "33,150", "33,150", "42,900", "42,900", "33,150", "33,150", "33,150", "33,150", "34,125", "34,125", "34,125", "34,125", "257,400", "257,400" ]
+, [ "row-ss4r-ag8r.d4rx", "00000000-0000-0000-A191-E7FA4474F843", 0, 1611075326, null, 1611075326, null, "{ }", "Ohio", "Region 5", "98,475", "98,475", "70,200", "70,200", "89,700", "89,700", "70,200", "70,200", "70,200", "70,200", "73,125", "73,125", "73,125", "73,125", "545,025", "545,025" ]
+, [ "row-pgur_yzwm.y8jz", "00000000-0000-0000-EA9E-3CC33DA5981D", 0, 1611075326, null, 1611075326, null, "{ }", "Wisconsin***", "Region 5", "49,725", "49,725", "35,100", "35,100", "44,850", "44,850", "35,100", "35,100", "35,100", "35,100", "37,050", "37,050", "37,050", "37,050", "273,975", "273,975" ]
+, [ "row-stgi_tvkg-in43", "00000000-0000-0000-7755-458C37491AE0", 0, 1611075326, null, 1611075326, null, "{ }", "Arkansas", "Region 6", "25,350", "25,350", "18,525", "18,525", "23,400", "23,400", "18,525", "18,525", "18,525", "18,525", "18,525", "18,525", "18,525", "18,525", "141,375", "141,375" ]
+, [ "row-sw9g.vaq5~ipdh", "00000000-0000-0000-0A6A-941FFEF1FD6C", 0, 1611075326, null, 1611075326, null, "{ }", "Louisiana", "Region 6", "39,000", "39,000", "28,275", "28,275", "36,075", "36,075", "28,275", "28,275", "28,275", "28,275", "29,250", "29,250", "29,250", "29,250", "218,400", "218,400" ]
+, [ "row-ptzu-mqi6.tzc4", "00000000-0000-0000-7C63-872494533921", 0, 1611075326, null, 1611075326, null, "{ }", "New Mexico***", "Region 6", "17,550", "17,550", "12,675", "12,675", "16,575", "16,575", "12,675", "12,675", "12,675", "12,675", "13,650", "13,650", "13,650", "13,650", "99,450", "99,450" ]
+, [ "row-2kka~3hzv_aaa9", "00000000-0000-0000-6146-69FE46EA267D", 0, 1611075326, null, 1611075326, null, "{ }", "Oklahoma", "Region 6", "33,150", "33,150", "23,400", "23,400", "29,250", "29,250", "23,400", "23,400", "23,400", "23,400", "24,375", "24,375", "24,375", "24,375", "181,350", "181,350" ]
+, [ "row-9c7e.pe49_b6jt", "00000000-0000-0000-0E7C-878E58F0FAE9", 0, 1611075326, null, 1611075326, null, "{ }", "Texas", "Region 6", "224,250", "224,250", "159,900", "159,900", "203,775", "203,775", "158,925", "158,925", "159,900", "159,900", "165,750", "165,750", "165,750", "165,750", "1,238,250", "1,238,250" ]
+, [ "row-326n.gwa5-xks7", "00000000-0000-0000-5CAC-DABD6C3E381D", 0, 1611075326, null, 1611075326, null, "{ }", "San Antonio ~", "Region 6", "N/A", "N/A", "N/A", "N/A", "N/A", "N/A", "N/A", "N/A", "N/A", "N/A", "N/A", "N/A", "N/A", "N/A", "0", "0" ]
+, [ "row-cdz6.h35c_au53", "00000000-0000-0000-2393-F311AFDC175D", 0, 1611075326, null, 1611075326, null, "{ }", "Houston ~", "Region 6", "N/A", "N/A", "N/A", "N/A", "N/A", "N/A", "N/A", "N/A", "N/A", "N/A", "N/A", "N/A", "N/A", "N/A", "0", "0" ]
+, [ "row-i8pv~nxxe~jwjt", "00000000-0000-0000-2477-0B797AF9AD60", 0, 1611075326, null, 1611075326, null, "{ }", "Iowa", "Region 7", "26,325", "26,325", "19,500", "19,500", "24,375", "24,375", "18,525", "18,525", "19,500", "19,500", "19,500", "19,500", "19,500", "19,500", "147,225", "147,225" ]
+, [ "row-76qy_gqyb.mmq2", "00000000-0000-0000-AE77-63DA60D0295E", 0, 1611075326, null, 1611075326, null, "{ }", "Kansas", "Region 7", "24,375", "24,375", "17,550", "17,550", "22,425", "22,425", "17,550", "17,550", "17,550", "17,550", "18,525", "18,525", "18,525", "18,525", "136,500", "136,500" ]
+, [ "row-593d-2pac_7iyp", "00000000-0000-0000-B4D5-574936E12905", 0, 1611075326, null, 1611075326, null, "{ }", "Missouri", "Region 7", "51,675", "51,675", "37,050", "37,050", "46,800", "46,800", "37,050", "37,050", "37,050", "37,050", "38,025", "38,025", "38,025", "38,025", "285,675", "285,675" ]
+, [ "row-jfhw~y5h2.9mhe", "00000000-0000-0000-5CD5-9F5A534D3264", 0, 1611075326, null, 1611075326, null, "{ }", "Nebraska***", "Region 7", "16,575", "16,575", "11,700", "11,700", "14,625", "14,625", "11,700", "11,700", "11,700", "11,700", "11,700", "11,700", "11,700", "11,700", "89,700", "89,700" ]
+, [ "row-vzkz_i9v8_fkgw", "00000000-0000-0000-AF4F-62A5CD14DE83", 0, 1611075326, null, 1611075326, null, "{ }", "Colorado", "Region 8", "46,800", "46,800", "33,150", "33,150", "42,900", "42,900", "33,150", "33,150", "33,150", "33,150", "35,100", "35,100", "35,100", "35,100", "259,350", "259,350" ]
+, [ "row-pcfr.vamh-jq8u", "00000000-0000-0000-9E21-48415F813D61", 0, 1611075326, null, 1611075326, null, "{ }", "Montana", "Region 8", "9,750", "9,750", "6,825", "6,825", "8,775", "8,775", "6,825", "6,825", "6,825", "6,825", "6,825", "6,825", "6,825", "6,825", "52,650", "52,650" ]
+, [ "row-m4ph-x26t_v3cp", "00000000-0000-0000-74D9-64A8884F6022", 0, 1611075326, null, 1611075326, null, "{ }", "North Dakota***", "Region 8", "6,825", "6,825", "4,875", "4,875", "5,850", "5,850", "4,875", "4,875", "4,875", "4,875", "4,875", "4,875", "4,875", "4,875", "37,050", "37,050" ]
+, [ "row-uv9v~eb8v~z8xs", "00000000-0000-0000-0F28-CD1502D8F47E", 0, 1611075326, null, 1611075326, null, "{ }", "South Dakota", "Region 8", "7,800", "7,800", "5,850", "5,850", "6,825", "6,825", "5,850", "5,850", "5,850", "5,850", "5,850", "5,850", "5,850", "5,850", "43,875", "43,875" ]
+, [ "row-pscu_sr28.2beh", "00000000-0000-0000-52F3-3CBD41D920F4", 0, 1611075326, null, 1611075326, null, "{ }", "Utah***", "Region 8", "23,400", "23,400", "16,575", "16,575", "21,450", "21,450", "16,575", "16,575", "16,575", "16,575", "17,550", "17,550", "17,550", "17,550", "129,675", "129,675" ]
+, [ "row-uhhz~ffju~izz6", "00000000-0000-0000-627D-6C04F23580BB", 0, 1611075326, null, 1611075326, null, "{ }", "Wyoming", "Region 8", "4,875", "4,875", "3,900", "3,900", "4,875", "4,875", "3,900", "3,900", "3,900", "3,900", "3,900", "3,900", "3,900", "3,900", "29,250", "29,250" ]
+, [ "row-9pf4-4cu7.pzsp", "00000000-0000-0000-CDCE-1AE484BF9000", 0, 1611075326, null, 1611075326, null, "{ }", "Arizona***", "Region 9", "58,500", "58,500", "41,925", "41,925", "53,625", "53,625", "41,925", "41,925", "41,925", "41,925", "42,900", "42,900", "42,900", "42,900", "323,700", "323,700" ]
+, [ "row-hz7k-b27m-e5dv", "00000000-0000-0000-791B-FAAC24E30736", 0, 1611075326, null, 1611075326, null, "{ }", "California", "Region 9", "327,600", "327,600", "233,025", "233,025", "297,375", "297,375", "232,050", "232,050", "233,025", "233,025", "241,800", "241,800", "241,800", "241,800", "1,806,675", "1,806,675" ]
+, [ "row-78y2-ejeb~6a37", "00000000-0000-0000-5F1C-261DF55E08CB", 0, 1611075326, null, 1611075326, null, "{ }", "Hawaii", "Region 9", "12,675", "12,675", "8,775", "8,775", "11,700", "11,700", "8,775", "8,775", "8,775", "8,775", "9,750", "9,750", "9,750", "9,750", "70,200", "70,200" ]
+, [ "row-n2fi_kr2x.thbh", "00000000-0000-0000-A325-6C010F965C5E", 0, 1611075326, null, 1611075326, null, "{ }", "Nevada", "Region 9", "25,350", "25,350", "17,550", "17,550", "22,425", "22,425", "17,550", "17,550", "17,550", "17,550", "18,525", "18,525", "18,525", "18,525", "137,475", "137,475" ]
+, [ "row-y9ju.7w4x_ga4u", "00000000-0000-0000-1CEB-AA464C923CE7", 0, 1611075326, null, 1611075326, null, "{ }", "American Samoa**", "Region 9", "5,850", "N/A", "N/A", "N/A", "N/A", "N/A", "7,800", "N/A", "N/A", "N/A", "N/A", "N/A", "N/A", "N/A", "13,650", "0" ]
+, [ "row-m5pw.nt6x.gnfq", "00000000-0000-0000-675A-D993E6A35F28", 0, 1611075326, null, 1611075326, null, "{ }", "Guam**", "Region 9", "11,700", "N/A", "N/A", "N/A", "N/A", "N/A", "7,800", "N/A", "N/A", "N/A", "N/A", "N/A", "N/A", "N/A", "19,500", "0" ]
+, [ "row-vepe~td3a-ycqz", "00000000-0000-0000-F97F-D240B85FAA50", 0, 1611075326, null, 1611075326, null, "{ }", "Marshall Islands*", "Region 9", "N/A", "N/A", "N/A", "N/A", "N/A", "N/A", "N/A", "N/A", "N/A", "N/A", "N/A", "N/A", "N/A", "N/A", "0", "0" ]
+, [ "row-6xdx_mz9i~gbdw", "00000000-0000-0000-CE41-59C636FAF499", 0, 1611075326, null, 1611075326, null, "{ }", "Micronesia*", "Region 9", "N/A", "N/A", "N/A", "N/A", "N/A", "N/A", "N/A", "N/A", "N/A", "N/A", "N/A", "N/A", "N/A", "N/A", "0", "0" ]
+, [ "row-buhq.ujn2~u4ii", "00000000-0000-0000-5E60-DA361FE49BB5", 0, 1611075326, null, 1611075326, null, "{ }", "Mariana Islands**", "Region 9", "5,850", "N/A", "N/A", "N/A", "N/A", "N/A", "7,800", "N/A", "N/A", "N/A", "N/A", "N/A", "N/A", "N/A", "13,650", "0" ]
+, [ "row-gk96~pn3k.7mem", "00000000-0000-0000-7FFB-E0C717CD7045", 0, 1611075326, null, 1611075326, null, "{ }", "Palau*", "Region 9", "N/A", "N/A", "N/A", "N/A", "N/A", "N/A", "N/A", "N/A", "N/A", "N/A", "N/A", "N/A", "N/A", "N/A", "0", "0" ]
+, [ "row-zrdv-rtwr_g7vi", "00000000-0000-0000-AB8C-876016B04D6B", 0, 1611075326, null, 1611075326, null, "{ }", "Alaska***", "Region 10", "35,100", "35,100", "N/A", "N/A", "N/A", "N/A", "27,300", "27,300", "N/A", "N/A", "N/A", "N/A", "N/A", "N/A", "62,400", "62,400" ]
+, [ "row-btqp~fpzi.683b", "00000000-0000-0000-FD22-52E164427665", 0, 1611075326, null, 1611075326, null, "{ }", "Idaho", "Region 10", "13,650", "13,650", "9,750", "9,750", "12,675", "12,675", "9,750", "9,750", "9,750", "9,750", "10,725", "10,725", "10,725", "10,725", "77,025", "77,025" ]
+, [ "row-5v8t-bfkt_u6hb", "00000000-0000-0000-D6F2-AD7468CA6121", 0, 1611075326, null, 1611075326, null, "{ }", "Oregon***", "Region 10", "35,100", "35,100", "25,350", "25,350", "32,175", "32,175", "25,350", "25,350", "25,350", "25,350", "26,325", "26,325", "26,325", "26,325", "195,975", "195,975" ]
+, [ "row-64iq-csu5-84rq", "00000000-0000-0000-98CA-E253E9AE67EF", 0, 1611075326, null, 1611075326, null, "{ }", "Washington***", "Region 10", "62,400", "62,400", "44,850", "44,850", "57,525", "57,525", "44,850", "44,850", "57,525", "57,525", "46,800", "46,800", "46,800", "46,800", "360,750", "360,750" ]
+, [ "row-z8r6~z2wx-msta", "00000000-0000-0000-A8C2-58EF031F8F6E", 0, 1611075326, null, 1611075326, null, "{ }", "Federal Entities ****", "N/A", "156000", "142350", "102,375", "102,375", "128,700", "128,700", "117,000", "101,400", "102,375", "102,375", "105,300", "105,300", "105,300", "105,300", "817,050", "787,800" ]
+, [ "row-yawf_y74y_fudc", "00000000-0000-0000-1B30-15557D1F66B1", 0, 1611075326, null, 1611075326, null, "{ }", "Total", null, "2,980,575", "2,943,525", "2,071,875", "2,071,875", "2,643,225", "2,643,225", "2,131,350", "2,092,350", "2,084,550", "2,084,550", "2,149,875", "2,149,875", "2,149,875", "2,149,875", null, null ]
+ ]
+}
